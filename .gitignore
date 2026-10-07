@@ -1,0 +1,24 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build output: keep only the game's image assets in bin/Debug.
+# The game loads them by relative path (e.g. new Bitmap("bk0.jpg")),
+# so they must sit next to the built ben10.exe.
+bin/*
+!bin/Debug/
+bin/Debug/*
+!bin/Debug/*.png
+!bin/Debug/*.jpg
+!bin/Debug/*.jpeg
+obj/
+
+# Screenshot from another site, not used by the game code
+bin/Debug/Browser Games*.png
+
+# Misc
+*.pdb
+Thumbs.db
